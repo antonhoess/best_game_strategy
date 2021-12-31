@@ -6,6 +6,8 @@ A simple collection of more or less primitive games and their (partial) simulati
 ```bash
 conda init bash # => Open new terminal
 conda create --name best_game_strategy python=3.8
+conda install --name best_game_strategy numpy
+conda install --name best_game_strategy readchar
 ```
 
 ### Activate the conda environment and start the program
@@ -29,5 +31,11 @@ Manual: See [here](manuals/hoppel_poppel_haba.pdf).
 
 Game name: `hoppel_poppel`
 
+### 2048
+![2048](images/2048.png "2048")
+
+Manual: See [here](https://en.wikipedia.org/wiki/2048_(video_game)#Gameplay).
+
+Game name: `game_2048`
 
 

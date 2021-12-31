@@ -23,7 +23,7 @@ class _Color(Enum):
 
     @classmethod
     def animals(cls) -> List[_Color]:
-        return [cls.RED, cls.BLUE, cls.YELLOW, cls.GREEN]
+        return [_Color(cls.RED), _Color(cls.BLUE), _Color(cls.YELLOW), _Color(cls.GREEN)]
     # end def
 # end class
 
